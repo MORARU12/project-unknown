@@ -1,5 +1,6 @@
 import { CssBaseline } from "@material-ui/core";
 import DashboardSwitcher from "components/DashboardSwitcher/DashboardSwitcher";
+import Forecast from "components/Forecast/Forecast";
 import Snackbar from "components/Snackbar/Snackbar";
 import TableSection from "components/TableSection/TableSection";
 import TodoPage from "pages/TodoPage";
@@ -9,7 +10,7 @@ const App = () => {
   return (
     <div>
       <CssBaseline />
-      <DashboardSwitcher />
+      <Forecast />
     </div>
   );
 };

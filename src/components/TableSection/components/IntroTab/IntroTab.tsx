@@ -2,7 +2,7 @@ import { Checkbox, Container, Grid, Typography } from "@material-ui/core";
 import React from "react";
 import useStyles from "./style";
 
-const IntroTab = () => {
+const IntroTab: React.FC = () => {
   const classes = useStyles();
   return (
     <Grid item>
