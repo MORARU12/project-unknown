@@ -1,7 +1,7 @@
 import { Box, Checkbox, Container, Grid, Typography } from "@material-ui/core";
 import useStyles from "./style";
 
-const ElementTab = () => {
+const ElementTab: React.FC = () => {
   const classes = useStyles();
 
   return (
