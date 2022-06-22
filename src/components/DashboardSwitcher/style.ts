@@ -2,18 +2,21 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   tabs_placeholder: {
-    backgroundColor: "#f1f1f1",
-    borderRadius: "5px",
+    // backgroundColor: "white",
+    borderRadius: "0px",
     overflow: "hidden",
-    padding: "5px 12px",
+    height: 35,
+    minHeight: 35,
 
     "& .MuiButtonBase-root.MuiTab-root": {
-      fontSize: 11,
+      fontSize: 13,
+      height: 35,
+      minHeight: 35,
     },
 
     "& .Mui-selected": {
-      backgroundColor: "white",
-      borderRadius: "5px",
+      backgroundColor: "#ffdde3",
+      borderRadius: "100px",
       overflow: "hidden",
     },
     "& .MuiTabs-indicator": {
@@ -21,16 +24,10 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 
-  tabs: {
-    height: "fit-content",
-    minHeight: "fit-content",
-  },
-
   tab: {
     minWidth: "fit-content",
     width: "fit-content",
-    height: 25,
-    minHeight: 25,
+    padding: "6px 25px",
   },
 }));
 
