@@ -1,4 +1,5 @@
 import { Container, Typography } from "@material-ui/core";
+import Dropdown from "./components/Dropdown/Dropdown";
 import GraphPlaceholder from "./components/GraphPlaceholder/GraphPlaceholder";
 import TabsSwitcher from "./components/TabsSwitcher/TabsSwitcher";
 import useStyles from "./style";
@@ -14,6 +15,7 @@ const CostEstimate = () => {
         Turnover Cost Estimate
       </Typography>
       {/* Dropdown */}
+      <Dropdown />
 
       {/* Tabs Select */}
       <TabsSwitcher />
