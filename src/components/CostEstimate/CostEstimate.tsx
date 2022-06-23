@@ -7,7 +7,7 @@ import useStyles from "./style";
 const CostEstimate = () => {
   const classes = useStyles();
   return (
-    <Container className={classes.container} maxWidth="sm">
+    <Container className={classes.container} maxWidth="md">
       <Typography className={classes.h6} variant="h6">
         Average
       </Typography>

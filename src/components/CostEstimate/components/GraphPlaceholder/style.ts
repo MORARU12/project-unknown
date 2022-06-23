@@ -15,6 +15,9 @@ const useStyles = makeStyles((theme) => ({
   number_grid: {
     height: "100%",
   },
+  months_grid: {
+    marginTop: "15px",
+  },
 }));
 
 export default useStyles;

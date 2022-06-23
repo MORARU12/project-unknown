@@ -11,7 +11,7 @@ const DashboardSwitcher: React.FC = () => {
   };
 
   return (
-    <Container maxWidth="sm">
+    <Container className={classes.container} maxWidth="sm">
       <Box sx={{ width: "100%" }}>
         <Box className={classes.tabs_placeholder}>
           <Tabs

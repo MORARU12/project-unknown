@@ -47,6 +47,7 @@ const GraphPlaceholder: React.FC = () => {
             direction="row"
             justifyContent="space-between"
             alignItems="center"
+            className={classes.months_grid}
           >
             <Grid item>
               <Typography>Jan</Typography>

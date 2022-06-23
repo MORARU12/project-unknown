@@ -4,7 +4,7 @@ const useStyles = makeStyles((theme) => ({
   box: {
     padding: "15px 15px 12px 19px",
     margin: "25px 0px 10px 0px",
-    backgroundColor: "#ffdde3",
+    backgroundColor: "#efefef",
     borderRadius: "100px",
     border: 0,
     outline: "none",
