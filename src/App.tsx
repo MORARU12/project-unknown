@@ -1,4 +1,5 @@
 import { CssBaseline } from "@material-ui/core";
+import CostEstimate from "components/CostEstimate/CostEstimate";
 import DashboardSwitcher from "components/DashboardSwitcher/DashboardSwitcher";
 import Forecast from "components/Forecast/Forecast";
 import Snackbar from "components/Snackbar/Snackbar";
@@ -10,7 +11,7 @@ const App = () => {
   return (
     <div>
       <CssBaseline />
-      <Forecast />
+      <CostEstimate />
     </div>
   );
 };
