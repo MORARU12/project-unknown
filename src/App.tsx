@@ -3,6 +3,7 @@ import CostEstimate from "components/CostEstimate/CostEstimate";
 import DashboardSwitcher from "components/DashboardSwitcher/DashboardSwitcher";
 import EmployeeAttrition from "components/EmployeeAttrition/EmployeeAttrition";
 import Forecast from "components/Forecast/Forecast";
+import Risks from "components/Risks/Risks";
 import Snackbar from "components/Snackbar/Snackbar";
 import TableSection from "components/TableSection/TableSection";
 import TodoPage from "pages/TodoPage";
@@ -12,7 +13,7 @@ const App = () => {
   return (
     <div>
       <CssBaseline />
-      <EmployeeAttrition />
+      <Risks />
     </div>
   );
 };

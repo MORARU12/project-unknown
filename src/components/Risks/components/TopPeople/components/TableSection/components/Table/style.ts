@@ -2,9 +2,13 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    width: "100%",
-    // padding: "15px",
+    backgroundColor: "white",
+    border: "1px solid #F2F2F2",
+    overflow: "hidden",
+    padding: 0,
     marginTop: "25px",
+    height: "fit-content",
+    minHeight: "fit-content",
   },
 }));
 
