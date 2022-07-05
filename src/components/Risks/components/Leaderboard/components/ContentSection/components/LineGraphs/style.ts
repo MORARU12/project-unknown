@@ -6,6 +6,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#7C828A",
     width: "100%",
     textAlign: "left",
+    marginBottom: "5px",
   },
 
   span: {
@@ -17,33 +18,20 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
   },
 
-  container: {
-    backgroundColor: "#7388A95A",
-    height: "8px",
-    width: "100%",
-    display: "flex",
-    borderRadius: "100px",
-    marginTop: "3px",
-    overflow: "hidden",
-    position: "relative",
-  },
-
-  box: {
-    backgroundColor: "#0FD52B",
-    height: "8px",
-    width: "35%",
-    display: "flex",
-    borderRadius: "100px",
-    overflow: "hidden",
-    position: "absolute",
-    margin: "auto",
-    left: "0",
-    top: "0",
-    bottom: "0",
-  },
-
   grid: {
     marginBottom: "15px",
+  },
+
+  progress: {
+    backgroundColor: "#7388A95A",
+    borderRadius: "100px",
+    overflow: "hidden",
+    height: "8px",
+
+    "& .MuiLinearProgress-barColorPrimary": {
+      backgroundColor: "#0FD52B",
+      borderRadius: "100px",
+    },
   },
 }));
 

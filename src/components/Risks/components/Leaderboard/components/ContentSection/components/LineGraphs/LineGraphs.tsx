@@ -1,6 +1,7 @@
-import { Box, Container, Grid, Typography } from "@material-ui/core";
-import React, { useState } from "react";
+import { Grid, Typography } from "@material-ui/core";
+import React from "react";
 import useStyles from "./style";
+import LinearProgress from "@material-ui/core/LinearProgress";
 
 const LineGraphs: React.FC = () => {
   const classes = useStyles();
@@ -14,7 +15,6 @@ const LineGraphs: React.FC = () => {
     >
       <Grid item className={classes.grid}>
         <Grid
-          container
           direction="column"
           justifyContent="flex-start"
           alignItems="stretch"
@@ -23,15 +23,16 @@ const LineGraphs: React.FC = () => {
             <Typography className={classes.text}>Very High</Typography>
           </Grid>
           <Grid item>
-            <Container className={classes.container}>
-              <Box className={classes.box}></Box>
-            </Container>
+            <LinearProgress
+              className={classes.progress}
+              variant="determinate"
+              value={50}
+            />
           </Grid>
         </Grid>
       </Grid>
       <Grid item className={classes.grid}>
         <Grid
-          container
           direction="column"
           justifyContent="flex-start"
           alignItems="stretch"
@@ -40,15 +41,16 @@ const LineGraphs: React.FC = () => {
             <Typography className={classes.text}>Very High</Typography>
           </Grid>
           <Grid item>
-            <Container className={classes.container}>
-              <Box className={classes.box}></Box>
-            </Container>
+            <LinearProgress
+              className={classes.progress}
+              variant="determinate"
+              value={40}
+            />
           </Grid>
         </Grid>
       </Grid>
       <Grid item className={classes.grid}>
         <Grid
-          container
           direction="column"
           justifyContent="flex-start"
           alignItems="stretch"
@@ -57,15 +59,16 @@ const LineGraphs: React.FC = () => {
             <Typography className={classes.text}>Very High</Typography>
           </Grid>
           <Grid item>
-            <Container className={classes.container}>
-              <Box className={classes.box}></Box>
-            </Container>
+            <LinearProgress
+              className={classes.progress}
+              variant="determinate"
+              value={70}
+            />
           </Grid>
         </Grid>
       </Grid>
       <Grid item className={classes.grid}>
         <Grid
-          container
           direction="column"
           justifyContent="flex-start"
           alignItems="stretch"
@@ -74,9 +77,11 @@ const LineGraphs: React.FC = () => {
             <Typography className={classes.text}>Very High</Typography>
           </Grid>
           <Grid item>
-            <Container className={classes.container}>
-              <Box className={classes.box}></Box>
-            </Container>
+            <LinearProgress
+              className={classes.progress}
+              variant="determinate"
+              value={20}
+            />
           </Grid>
         </Grid>
       </Grid>
