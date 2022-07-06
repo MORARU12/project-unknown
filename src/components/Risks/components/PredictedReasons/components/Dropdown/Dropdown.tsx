@@ -16,7 +16,6 @@ const Dropdown = () => {
     <Box className={classes.box}>
       <FormControl fullWidth>
         <Select
-          className={classes.select}
           value={value}
           onChange={handleChange}
           // disableUnderline
@@ -24,10 +23,26 @@ const Dropdown = () => {
           displayEmpty
           disableUnderline
           IconComponent={KeyboardArrowDown}
+          MenuProps={{
+            classes: {
+              paper: classes.paper,
+            },
+          }}
+          inputProps={{
+            classes: {
+              root: classes.select,
+            },
+          }}
         >
-          <MenuItem value={1}>Department</MenuItem>
-          <MenuItem value={2}>Store</MenuItem>
-          <MenuItem value={3}>Got</MenuItem>
+          <MenuItem className={classes.menu_item} value={1}>
+            Department
+          </MenuItem>
+          <MenuItem className={classes.menu_item} value={2}>
+            Store
+          </MenuItem>
+          <MenuItem className={classes.menu_item} value={3}>
+            Got
+          </MenuItem>
         </Select>
       </FormControl>
     </Box>

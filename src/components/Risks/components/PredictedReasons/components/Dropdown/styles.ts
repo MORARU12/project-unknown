@@ -25,6 +25,27 @@ const useStyles = makeStyles((theme) => ({
     },
     paddingRight: "6px",
   },
+
+  paper: {
+    background: "white",
+    borderRadius: "15px",
+    boxShadow: "0px 5px 20px #00000029",
+    padding: " 0px 8px",
+  },
+
+  menu_item: {
+    backgroundColor: "white",
+    borderRadius: "100px",
+    "&.Mui-selected": {
+      backgroundColor: "#FFE7F5",
+    },
+    "&.Mui-selected:hover": {
+      backgroundColor: "#FFE7F5",
+    },
+    "&:hover": {
+      backgroundColor: "inherit",
+    },
+  },
 }));
 
 export default useStyles;
