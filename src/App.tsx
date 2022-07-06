@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div>
       <CssBaseline />
-      <Risks />
+      <EmployeeAttrition />
     </div>
   );
 };
