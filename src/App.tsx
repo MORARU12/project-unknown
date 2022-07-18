@@ -1,5 +1,5 @@
 import { CssBaseline } from "@material-ui/core";
-import ActionPlan from "components/ActionPlan/ActionPlan";
+import ActionPlan from "components/ActionPlan2/ActionPlan";
 import CostEstimate from "components/CostEstimate/CostEstimate";
 import DashboardSwitcher from "components/DashboardSwitcher/DashboardSwitcher";
 import EmployeeAttrition from "components/EmployeeAttrition/EmployeeAttrition";
